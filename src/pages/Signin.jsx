@@ -23,14 +23,38 @@ const Signin = () => {
     }
   }, [user,navigate]);
 
-  return (
+   return (
+
     <div>
-      <h1 className='landing_container'>LawLift</h1>
-      <div className='max-w-[240px] m-auto py-4'>
-        <GoogleButton onClick={handleGoogleSignIn} />
+      <section id='home'>
+      <div className='landing_container'>
+            <div className='landing_title'>LawLift</div>
+            <div className='landing_tagline'>Speak Free!</div>
+            <div>
+              <button onClick={handleGoogleSignIn} className='landing_loginbtn' >Get Started</button>
+            </div>
+            
       </div>
+      </section>
+      <section id='about'>
+
+      </section>
+
     </div>
+
+
+
   );
-};
+   };
+//   return (
+    
+//     <div>
+//       <h1 className='landing_container'>LawLift</h1>
+//       <div className='landing_loginbtn'>
+//         <GoogleButton onClick={handleGoogleSignIn} />
+//       </div>
+//     </div>
+//   );
+// };
 
 export default Signin;
