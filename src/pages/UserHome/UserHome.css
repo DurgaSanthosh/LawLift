@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+  padding: 0;
+}
+.userhome_main{
+background: url("../../assets/BgUser.png") fixed no-repeat;
+
+
+height: 100vh;
+  
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap:wrap;
+}
+
+.userhome_main_container{
+  width: 40%;
+  padding-top: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  
+
+
+
+ 
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    height: 30rem;
+    margin: auto;
+    justify-content: space-around;
+}
+  .cards{
+
+
+    text-align: center;
+    width: 30%;
+    height: 30%;
+    padding: .5rem;
+    background: #FFFFFF;
+    box-shadow: 8px 8px 16px rgb(62 62 62 / 20%);
+    border-radius: 30px;
+  }
+
+.userhome_button{
+position: absolute;
+width: 12rem;
+height: 4rem;
+top: 80%;
+left:86.3%;
+background: #142664;
+border-radius: 50px 0px 0px 50px;
+text-align: end;
+color: #F1D66F;
+padding-right: 1rem;
+font-family: Inter;
+font-size: 1.5rem;
+padding-top: 1.7rem;
+  }
