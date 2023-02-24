@@ -1,11 +1,11 @@
 .feed_container {
-    background-image: url("../../assets/BgUser.svg");
+    background-image: url("../../assets/main.png");
     background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
     top: 0px;
     position: absolute;
     display: flex;
@@ -17,4 +17,9 @@
     overflow-x: hidden;
     overflow-y: hidden;
 
+}
+.feed_leftbtn {
+    margin-top: 10px;
+    margin-left: -630px;
+    color: #142664;
 }

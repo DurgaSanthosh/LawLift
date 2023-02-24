@@ -4,38 +4,41 @@ import Connections from '../../assets/Connections.png'
 import Feed from '../../assets/Feed.png'
 import Commu from '../../assets/Comm.png'
 import Event from '../../assets/Event.png'
-import Profile from '../../assets/Profile.png'
+import Feed2 from '../Feed2/feed2'
+import {useNavigate} from 'react-router-dom'
+// import Profile from '../../assets/Profile.png'
 import "./UserHome.css"
+import { Link } from 'react-router-dom'
 function UserHome() {
   return (
     <div className='userhome_main'>
         
         <div className='userhome_main_container'>
         
-        <div className='cards Card1_main'>
-             <div className='cardi Card1_main_icon'>
+       <div className='cards Card1_main'>
+             <Link to='/consult' className="my-link"> <div className='cardi Card1_main_icon'>
                  <img src={Bot} alt="icon" />
              </div>
             <div className='cardi Card1_main_text'>
                 AI Legal Consultant
-             </div>
+             </div></Link>
          </div>
          <div className='cards Card2_main'>
-             <div className='cardi Card2_main_icon'>
+             <Link to='/connect' className="my-link"><div className='cardi Card2_main_icon'>
                  <img src={Connections} alt="icon" />
              </div>
             <div className='Card2_main_text'>
                 Connections
-             </div>
+             </div></Link>
          </div>
 
          <div className='cards Card3_main'>
-             <div className='cardi Card3_main_icon'>
+             <Link to='/feed2' className="my-link"><div className='cardi Card3_main_icon'>
                  <img src={Feed} alt="icon" />
              </div>
             <div className='Card3_main_text'>
                 Feed
-             </div>
+             </div></Link>
          </div>
 
          <div className='cards Card4_main'>
@@ -56,9 +59,9 @@ function UserHome() {
              </div>
          </div>
          </div>
-    <div className='userhome_button'>
+    <Link to='/feed'><div className='userhome_button'>
      Speak out?
-    </div>
+    </div></Link>
     </div>
   )
 }

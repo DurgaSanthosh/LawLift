@@ -17,3 +17,8 @@
             overflow-x: hidden;
             overflow-y: hidden;
         }
+                .consult_leftbtn {
+                    margin-top: 10px;
+                    margin-left: -6300px;
+                    color: #142664;
+                }

@@ -17,6 +17,11 @@
     overflow-x: hidden;
     overflow-y: hidden;
   }
+    .consult_leftbtn {
+      margin-top: 10px;
+      margin-left: -630px;
+      color: #142664;
+    }
   
   .cpContainer {
     margin-top: 140px;

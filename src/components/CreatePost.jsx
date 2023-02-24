@@ -3,6 +3,8 @@ import { addDoc, collection } from "firebase/firestore";
 import { db, auth } from "../firebase";
 import { useNavigate } from "react-router-dom";
 import "./CreatePost.css"
+import { FiArrowLeftCircle } from 'react-icons/fi';
+import { Link } from 'react-router-dom'
 
 function CreatePost({ isAuth }) {
   const [title, setTitle] = useState("");
@@ -28,6 +30,7 @@ function CreatePost({ isAuth }) {
 
   return (
     <div className="createPostPage">
+      <Link to='/userhome'><h1 className='feed_leftbtn'><FiArrowLeftCircle/> </h1> </Link>
       <div className="cpContainer">
         <h1>Create A Post</h1>
         <div className="inputGp">

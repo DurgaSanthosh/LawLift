@@ -6,11 +6,13 @@ import { AuthContextProvider } from './context/AuthContext';
 import Signout from './pages/Signout';
 import Home from './pages/Home';
 import Signin from './pages/Signin';
+import Feed2 from './pages/Feed2/feed2';
 import Consult from './pages/consult/Consult';
 import Feed from './pages/feed/Feed';
 import About from './pages/AboutUs/AboutUs';
 import Contact from "./pages/ContactUs/ContactUs";
 import UserHome from './pages/UserHome/UserHome';
+import Connect from './pages/Connect';
 
  const App = () => {
 
@@ -39,21 +41,23 @@ import UserHome from './pages/UserHome/UserHome';
     },
     {
       path: "/signout",
-      element: <Signout />
+      element: <Signout />,
     },
     {
       path: "/consult",
-      element: <Consult />
+      element: <Consult />,
     },
     {
       path: "/feed",
-      element: <Feed />
+      element: <Feed />,
     },
-    { path: "/userhome",
-      element:<UserHome/>
-    }
-
-  ])
+    {
+      path: "/feed2",
+      element: <Feed2 />,
+    },
+    { path: "/userhome", element: <UserHome /> },
+    { path: "/connect", element: <Connect /> },
+  ]);
 
   return (
     <div>
