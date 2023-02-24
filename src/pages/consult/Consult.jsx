@@ -3,10 +3,11 @@ import Chat from '../../components/Chat';
 
 function Consult() {
   return (
-    <div>
+    <div className='consult'>
         <Chat/>
     </div>
-  )
-}
+  );
+};
 
 export default Consult
+

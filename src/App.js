@@ -7,6 +7,7 @@ import Signout from './pages/Signout';
 import Home from './pages/Home';
 import Signin from './pages/Signin';
 import Consult from './pages/consult/Consult';
+import About from './pages/AboutUs/AboutUs'
 
  const App = () => {
 
@@ -21,14 +22,18 @@ import Consult from './pages/consult/Consult';
       ),
     },
     {
+      path: "/aboutus",
+      element: <About />,
+    },
+    {
       path: "/signout",
-      element: <Signout />
+      element: <Signout />,
     },
     {
       path: "/consult",
-      element: <Consult />
+      element: <Consult />,
     },
-  ])
+  ]);
 
   return (
     <div>
