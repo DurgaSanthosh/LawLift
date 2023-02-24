@@ -1,14 +1,28 @@
-
 .createPostPage {
+    background-image: url(".././assets/Consult.png");
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
     width: 100%;
-    height: calc(100vh - 80px);
-    display: grid;
-    place-items: center;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
   }
   
   .cpContainer {
+    margin-top: 140px;
     width: 500px;
     height: auto;
+    padding-top: 50px;
     padding: 20px;
     background-color: #142664;
     border-radius: 12px;

@@ -7,7 +7,7 @@ import "./Feed.css";
 function Feed() {
   const [isAuth, setIsAuth] = useState(localStorage.getItem("isAuth"));
   return (
-    <div className=".landing_container">
+    <div className=".feed_container">
       <CreatePost isAuth={isAuth} />
     </div>
   );
