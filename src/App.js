@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Routes, createBrowserRouter, Route, RouterProvider } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Protected from './components/Protected';
 import { AuthContextProvider } from './context/AuthContext';
 import Signout from './pages/Signout';
@@ -8,13 +8,24 @@ import Home from './pages/Home';
 import Signin from './pages/Signin';
 import Consult from './pages/consult/Consult';
 import Feed from './pages/feed/Feed';
+import About from './pages/AboutUs/AboutUs'
+import UserHome from './pages/UserHome/UserHome';
 
  const App = () => {
 
   const routes = createBrowserRouter([
     {
       path: "/",
-      element: <Signin />
+      element: (
+        <>
+          <Navbar />
+          <Signin />
+        </>
+      ),
+    },
+    {
+      path: "/aboutus",
+      element: <About />,
     },
     {
       path: "/signout",
@@ -28,6 +39,10 @@ import Feed from './pages/feed/Feed';
       path: "/feed",
       element: <Feed />
     },
+    { path: "/userhome",
+      element:<UserHome/>
+    }
+
   ])
 
   return (

@@ -1,23 +1,4 @@
-.createPostPage {
-    background-image: url(".././assets/Landingpg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    width: 100vw;
-    height: 100vh;
-    top: 0px;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
 
-}
 .createPostPage {
     width: 100%;
     height: calc(100vh - 80px);
