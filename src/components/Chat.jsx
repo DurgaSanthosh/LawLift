@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import './Chat.css'
 
 export class Chat extends Component {
     componentDidMount() {   
@@ -16,7 +17,7 @@ export class Chat extends Component {
   render() {
     
     return (
-      <div>Chat</div>
+      <div className='consult' ></div>
     )
   }
 }
