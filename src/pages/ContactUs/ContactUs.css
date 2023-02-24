@@ -1,0 +1,95 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url("../../assets/Consult.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-us {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+    justify-content: center;
+    margin-right: 15rem;
+    width: 100%;
+}
+
+.contact-inputs {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    flex-direction: column;
+    border-radius: 30px;
+    margin-left: 200px;
+    background-color: rgb(254, 249, 249, 0.243);
+    justify-content: center;
+}
+
+.contact-inputs label {
+    font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    padding-top: .25rem;
+}
+
+.contact-inputs input {
+    width: 300px;
+    height: 30px;
+    float: right;
+    padding-left: 20px;
+}
+
+.contact-inputs .message {
+    height: 60px;
+}
+
+.send-button {
+    cursor: pointer;
+
+    background-color: #142664;
+
+
+    border-radius: 8px;
+
+    padding: 20px 30px 10px 30px;
+    color: mintcream;
+    border: none;
+    border-radius: 50px;
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.contact-us img {
+    float: right;
+}
+
+.contact h1 {
+    color: #142664;
+    font-size: 3rem;
+    font-family: 'Inter', sans-serif;
+    padding-top: 6rem;
+
+}
