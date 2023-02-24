@@ -7,7 +7,8 @@ import Signout from './pages/Signout';
 import Home from './pages/Home';
 import Signin from './pages/Signin';
 import Consult from './pages/consult/Consult';
-import About from './pages/AboutUs/AboutUs'
+import About from './pages/AboutUs/AboutUs';
+import Contact from "./pages/ContactUs/ContactUs";
 import UserHome from './pages/UserHome/UserHome';
 
  const App = () => {
@@ -25,6 +26,15 @@ import UserHome from './pages/UserHome/UserHome';
     {
       path: "/aboutus",
       element: <About />,
+    },
+    {
+      path: "/contactus",
+      element: (
+        <>
+          <Navbar />
+          <Contact />
+        </>
+      ),
     },
     {
       path: "/signout",
