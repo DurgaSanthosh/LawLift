@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { UserAuth } from '../context/AuthContext';
+import { useAuth } from '../context/AuthContext';
 
 const Navbar = () => {
-  const { user, logOut } = UserAuth();
+  const { user, logOut } = useAuth();
 
   const handleSignOut = async () => {
     try {
