@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { GoogleButton } from 'react-google-button';
 import { UserAuth } from '../context/AuthContext';
-import { useNavigate } from 'react-router-dom';
+import {  useNavigate } from 'react-router-dom';
 
 const Signin = () => {
   const { googleSignIn, user } = UserAuth();
@@ -17,9 +17,9 @@ const Signin = () => {
 
   useEffect(() => {
     if (user != null) {
-      navigate('/account');
+      navigate('/signout');
     }
-  }, [user]);
+  }, [user,navigate]);
 
   return (
     <div>
