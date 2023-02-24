@@ -4,8 +4,8 @@ body {
 }
 
 .landing_container {
-    background-image: url(".././assets/Landingpg.png");
-    background-size: cover;
+    background-image: url(".././assets/Landing.svg");
+    background-size:100%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Routes, createBrowserRouter, Route, RouterProvider } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Protected from './components/Protected';
 import { AuthContextProvider } from './context/AuthContext';
 import Signout from './pages/Signout';
@@ -13,7 +13,12 @@ import Consult from './pages/consult/Consult';
   const routes = createBrowserRouter([
     {
       path: "/",
-      element: <Signin />
+      element: (
+        <>
+          <Navbar />
+          <Signin />
+        </>
+      ),
     },
     {
       path: "/signout",
