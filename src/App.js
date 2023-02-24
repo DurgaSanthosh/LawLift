@@ -9,6 +9,7 @@ import Signin from './pages/Signin';
 import Consult from './pages/consult/Consult';
 import About from './pages/AboutUs/AboutUs';
 import Contact from "./pages/ContactUs/ContactUs";
+import UserHome from './pages/UserHome/UserHome';
 
  const App = () => {
 
@@ -37,13 +38,14 @@ import Contact from "./pages/ContactUs/ContactUs";
     },
     {
       path: "/signout",
-      element: <Signout />,
+      element: <Signout />
     },
     {
-      path: "/consult",
-      element: <Consult />,
-    },
-  ]);
+      path: "/userhome",
+      element:<UserHome/>
+    }
+
+  ])
 
   return (
     <div>
