@@ -6,6 +6,7 @@ import { AuthContextProvider } from './context/AuthContext';
 import Signout from './pages/Signout';
 import Home from './pages/Home';
 import Signin from './pages/Signin';
+import Consult from './pages/consult/Consult';
 
  const App = () => {
 
@@ -21,9 +22,13 @@ import Signin from './pages/Signin';
     },
     {
       path: "/signout",
-      element: <Signout />,
+      element: <Signout />
     },
-  ]);
+    {
+      path: "/consult",
+      element: <Consult />
+    },
+  ])
 
   return (
     <div>
