@@ -12,10 +12,6 @@ import Signin from './pages/Signin';
   const routes = createBrowserRouter([
     {
       path: "/",
-      element: <Home />
-    },
-    {
-      path: "/signin",
       element: <Signin />
     },
     {
