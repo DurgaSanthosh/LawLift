@@ -19,7 +19,7 @@ const Signin = () => {
   useEffect(() => {
     if (user != null) {
       console.log(user)
-      navigate('/signout');
+      navigate('/userhome');
     }
   }, [user,navigate]);
   

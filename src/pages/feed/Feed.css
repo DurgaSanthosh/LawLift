@@ -18,3 +18,8 @@
     overflow-y: hidden;
 
 }
+.feed_leftbtn {
+    margin-top: 10px;
+    margin-left: -630px;
+    color: #142664;
+}

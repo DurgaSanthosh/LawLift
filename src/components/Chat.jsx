@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import { FiArrowLeftCircle } from 'react-icons/fi';
+import { Link } from 'react-router-dom'
 import './Chat.css'
 
 export class Chat extends Component {
@@ -17,7 +19,7 @@ export class Chat extends Component {
   render() {
     
     return (
-      <div className='consult' ></div>
+      <div className='consult' ><Link to='/userhome'><h1 className='consult_leftbtn'><FiArrowLeftCircle/> </h1> </Link></div>
     )
   }
 }

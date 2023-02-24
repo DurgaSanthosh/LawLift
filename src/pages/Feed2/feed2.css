@@ -1,6 +1,6 @@
-.consult {
-    background-image: url(".././assets/Botbg.png");
-    background-size: cover;
+.feed2_bg {
+    background-image: url("../../assets/feed2.png");
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
@@ -17,7 +17,8 @@
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.consult_leftbtn {
+
+.feed2_leftbtn {
     margin-top: 10px;
     margin-left: -630px;
     color: #142664;
