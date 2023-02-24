@@ -21,9 +21,12 @@ const Signin = () => {
       navigate('/signout');
     }
   }, [user,navigate]);
+  
 
   return (
     <div>
+      <div>
+      </div>
       <h1 className='landing_container'>LawLift</h1>
       <div className='max-w-[240px] m-auto py-4'>
         <GoogleButton onClick={handleGoogleSignIn} />
