@@ -7,6 +7,7 @@ import Signout from './pages/Signout';
 import Home from './pages/Home';
 import Signin from './pages/Signin';
 import Consult from './pages/consult/Consult';
+import Feed from './pages/feed/Feed';
 
  const App = () => {
 
@@ -22,6 +23,10 @@ import Consult from './pages/consult/Consult';
     {
       path: "/consult",
       element: <Consult />
+    },
+    {
+      path: "/feed",
+      element: <Feed />
     },
   ])
 
