@@ -1,0 +1,36 @@
+.about_container{
+    background-image: url("../../assets/Consult.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.about_title{
+    color:#142664;
+    font-size: 3rem;
+    font-family: 'Inter';
+    padding-top: 10rem;
+    font-weight: bold;
+    padding-bottom: 2rem;
+}
+.about_descr{
+    font-size: 1.25rem;
+    
+    font-family:'Inter';
+    line-height: 2rem; 
+    text-align: center;
+    padding-bottom: 2.5rem; 
+    width:60vw;
+    padding-top: 1rem;
+    justify-content: center;
+}

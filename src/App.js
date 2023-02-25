@@ -28,7 +28,12 @@ import Connect from './pages/Connect';
     },
     {
       path: "/aboutus",
-      element: <About />,
+      element: (
+        <>
+        <Navbar />
+      <About />
+      </>
+      ),
     },
     {
       path: "/contactus",
