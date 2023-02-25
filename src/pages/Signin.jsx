@@ -37,9 +37,7 @@ const Signin = () => {
             
       </div>
       </section>
-      <section id='about'>
-
-      </section>
+      
 
     </div>
 
