@@ -39,8 +39,9 @@ function UserHome() {
             <div className='Card3_main_text'>
                 Feed
              </div></Link>
-         </div>
-
+         
+            </div>
+            
          <div className='cards Card4_main'>
              <div className='cardi Card4_main_icon'>
                  <img src={Commu} alt="icon" />
@@ -49,15 +50,7 @@ function UserHome() {
                 Communities & organisations
              </div>
          </div>
-
-         <div className='cards Card5_main'>
-             <div className='cardi Card5_main_icon'>
-                 <img src={Event} alt="icon" />
-             </div>
-            <div className='Card5_main_text'>
-                Events
-             </div>
-         </div>
+         
          </div>
     <Link to='/feed'><div className='userhome_button'>
      Speak out?
