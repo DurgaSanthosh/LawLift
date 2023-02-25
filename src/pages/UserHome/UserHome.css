@@ -15,27 +15,23 @@ height: 100vh;
 }
 
 .userhome_main_container{
-  width: 40%;
-  padding-top: 1.2rem;
+  width: 30%;
+  padding-top: 2rem;
   display: flex;
   flex-direction: row;
-  
-
-
-
- 
     align-content: space-evenly;
     flex-wrap: wrap;
     height: 30rem;
     margin: auto;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
   .cards{
 
     text-align: center;
     width: 30%;
-    height: 30%;
-    padding: .5rem;
+    height: 28%;
+    padding: 1.5rem;
+    padding-right: 2rem;
     background: #FFFFFF;
     box-shadow: 8px 8px 16px rgb(62 62 62 / 20%);
     border-radius: 30px;
@@ -59,3 +55,4 @@ padding-top: 1.7rem;
   .my-link{
     text-decoration: none;
   }
+  
